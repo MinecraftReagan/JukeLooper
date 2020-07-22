@@ -1,2 +1,3 @@
-# JukeLooper
-A simple Minecraft plugin to allow you to put jukeboxes on a continuous loop!
+# JukeLooper #
+
+This plugin was created by MinecraftReagan using old code from RandomUnknown's plugin.
