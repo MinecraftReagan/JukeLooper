@@ -1,0 +1,26 @@
+name: JukeLooper
+description: A simple plugin that allows you to put jukeboxes on a continuous loop!
+version: 1.0.1
+main: me.reagan.jukelooper.Main
+api-version: 1.16
+author: MinecraftReagan
+
+commands:
+  jukelooper:
+    description: JukeLooper info
+    default: true
+    usage: /jukelooper
+  jukelooperreload:
+    description: Reloads the JukeLooper config.yml file.
+    default: op
+    usage: /jukelooperreload
+    permission: jukelooper.reload
+
+permissions:
+  jukelooper.use:
+    description: Gives you access to use a JukeLooper jukebox.
+  jukelooper.remove:
+    description: Gives you access to remove a JukeLooper jukebox.
+  jukelooper.reload:
+    default: op
+    description: Reloads the JukeLooper config.yml file.
